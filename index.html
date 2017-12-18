@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Crystals Collector</title>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+		<section>
+			<h2 id="gameName">Crystals Collector!!</h2>
+        </section>    
+
+    </header>
+    <div class="row">
+    	<div class="col-md-8">
+        <section id="instructions">
+    	<p>
+    		> You will be given a random number at the start point of the game.
+    		<br><br>
+    		> There are four crystals below. By clicking on a crystal you wil add a specific amount of points to your total score.
+    		<br><br>
+    		> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+    		<br><br>
+    		> The value of each crystal is hidden fromyou until you click on it.
+    		<br><br>
+    		> Each time when the game starts, the game will change the values of each crytals.
+    	</p>
+        </section>
+        </div>
+    </div>
+
+    <div class="row">
+    	<div class="col-md-2">
+    	</div>
+     	<div class="col-md-2 boxes" id="random">
+    		<h1>RANDOM NUMBER</h1>
+    	</div>
+    	<div class="col-md-3 boxes" class="scoreBoard">
+    		<h2 id="wins">Wins:</h2>
+    		<h2 id="losses">Losses:</h2>
+    		<!-- <h2 id="total">Your total score is:</h2> -->
+    	</div> 
+    	<div class="col-md-2 boxes" id="yourAnswer">
+    		Answer
+    	</div> 
+    	<div class="col-md-2">
+    	</div>  		
+    </div>
+
+    <div class="row">
+    	<div class="col-md-2">
+    	</div>
+    	<div class="col-md-2">
+    	<button id="pink"><img src="./assets/images/pink.png"></button>
+    	</div>
+    	<div class="col-md-2">
+    	<button id="blue"><img src="./assets/images/blue.png"></button>
+    	</div>
+    	<div class="col-md-2">
+    	<button id="orange"><img src="./assets/images/orange.png"></button>
+    	</div>
+    	<div class="col-md-2">
+    	<button id="green"><img src="./assets/images/green.png"></button>
+    	</div>
+    	<div class="col-md-2">
+    	</div>
+    </div>
+</body>
+</html>

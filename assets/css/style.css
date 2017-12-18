@@ -1,0 +1,79 @@
+body{
+	/*background-image:url("assets/images/halftone-yellow.png");*/
+	background-color: #0DDDFD;
+}
+
+#gameName{
+	font-family:"Georgia";
+	background: orange;
+	color:white;
+	margin-top: 0;
+	padding:25px;
+    font-size:27px;
+	text-align: center;
+	margin-bottom: 0;
+	float:left;
+}
+#instructions{
+	width: 650px;
+	margin-top:100px;
+	background: #F3DE99;
+	text-align: left;
+	margin-bottom: 50px;
+	height: 230px;
+	overflow: auto;
+	font-size:18px;
+	padding: 10px;
+	color:#2F4F4F;
+}
+
+button{
+	display:inline-block;
+	height:150px;
+	padding: 0;
+	vertical-align: top;
+	width: 150px;
+}
+
+
+.boxes{
+    display:inline-block;
+	height:200px;
+	padding: 0;
+	width: 200px;
+	margin:10px;
+	background-color: #99F3D5;
+	margin-bottom:30px;
+}
+
+#random{ 
+	text-align: center;
+	font-size:60px;
+	padding-top:60px;
+	color:#2F4F4F;
+}
+#wins{
+	text-align: left:;
+	font-size:25px;
+	color:#2F4F4F;
+	margin:20px;
+	margin-top: 30px;
+}
+#losses{
+	text-align: left:;
+	font-size:25px;
+	color:#2F4F4F;
+	margin:20px;
+}
+#total{
+	text-align: left:;
+	font-size:25px;
+	color:#2F4F4F;
+	margin:20px;
+}
+#yourAnswer{
+	text-align: center;
+	font-size:60px;
+	padding-top:60px;
+	color:#2F4F4F;
+}
